@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+:root {
+  --bg-color: #121212;
+  --fg-color: #fafafa;
+  --primary: #ebdbb2;
+  --secondary: #282828;
+}
+
+body {
+  color: var(--fg-color);
+  background-color: var(--bg-color);
+  font-family: var(--font-jetbrains-mono), monospace;
+  overflow-x: hidden !important;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-jetbrains-mono), monospace;
+}
