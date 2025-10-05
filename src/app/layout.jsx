@@ -2,6 +2,8 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Link from "next/link";
+import { version } from "./utils/version";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains-mono",
@@ -21,6 +23,13 @@ export default function RootLayout({ children }) {
       <body className={`${jetbrainsMono.variable} antialiased px-4`}>
         <Header />
         {children}
+        <Link
+          href="https://github.com/jpdoshi/snowflake-browser"
+          target="_blank"
+          className="fixed right-2 bottom-2 bg-stone-800 text-[var(--yellow)]"
+        >
+          v{version}
+        </Link>
         <Footer />
       </body>
     </html>

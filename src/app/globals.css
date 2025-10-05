@@ -2,9 +2,13 @@
 
 :root {
   --bg-color: #121212;
-  --fg-color: #fafafa;
+  --fg-color: #fbf1c7;
   --primary: #ebdbb2;
   --secondary: #282828;
+  --red: #cc241d;
+  --orange: #d65d0e;
+  --yellow: #d79921;
+  --green: #98971a;
 }
 
 body {
@@ -12,6 +16,10 @@ body {
   background-color: var(--bg-color);
   font-family: var(--font-jetbrains-mono), monospace;
   overflow-x: hidden !important;
+}
+
+section {
+  margin-bottom: 64px;
 }
 
 button {

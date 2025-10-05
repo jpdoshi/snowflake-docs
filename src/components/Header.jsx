@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import NavMenu from "./NavMenu";
+import Link from "next/link";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,9 +20,17 @@ const Header = () => {
 
   return (
     <header className="container mx-auto h-[72px] mb-12 flex justify-between items-center">
-      <Image src="/icon.png" alt="logo" width={36} height={36} loading="lazy" />
+      <Link href="/">
+        <Image
+          src="/icon.png"
+          alt="logo"
+          width={36}
+          height={36}
+          loading="lazy"
+        />
+      </Link>
       <button
-        className="hover:text-[var(--primary)] hover:bg-neutral-800 p-1.5 rounded-md duration-300"
+        className="text-[var(--green)] hover:bg-stone-800 p-1.5 rounded-md duration-300"
         onClick={() => setIsMenuOpen((prev) => !prev)}
       >
         <svg
