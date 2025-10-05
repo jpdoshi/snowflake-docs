@@ -15,6 +15,9 @@ export const metadata = {
   title: "Welcome - Snowflake browser by jpdoshi",
   description:
     "Snowflake: Minimal, Privacy focused web browser for anonymous web",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
