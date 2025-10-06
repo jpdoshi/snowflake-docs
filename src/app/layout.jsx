@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <Link
           href="https://github.com/jpdoshi/snowflake-browser"
           target="_blank"
-          className="fixed right-2 bottom-2 bg-stone-800 text-[var(--yellow)]"
+          className="fixed right-0 bottom-0 m-3 bg-stone-800 text-lg text-[var(--yellow)]"
         >
           v{version}
         </Link>
