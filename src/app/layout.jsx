@@ -20,13 +20,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${jetbrainsMono.variable} antialiased px-4`}>
+      <body className={`${jetbrainsMono.variable} antialiased px-5`}>
         <Header />
         {children}
         <Link
           href="https://github.com/jpdoshi/snowflake-browser"
           target="_blank"
-          className="fixed right-0 bottom-0 m-3 bg-stone-800 text-lg text-[var(--yellow)]"
+          className="fixed right-0 bottom-0 m-5 bg-stone-800 text-lg text-[var(--yellow)]"
         >
           v{version}
         </Link>

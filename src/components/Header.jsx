@@ -19,7 +19,7 @@ const Header = () => {
   }, [isMenuOpen]);
 
   return (
-    <header className="container mx-auto h-[72px] mb-12 flex justify-between items-center">
+    <header className="container mx-auto h-[80px] mb-12 flex justify-between items-center">
       <Link href="/">
         <Image
           src="/icon.png"
