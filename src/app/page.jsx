@@ -270,7 +270,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features */}
+      {/* FAQs */}
       <section>
         <Heading>FAQs</Heading>
         <p className="text-center text-lg mb-8">

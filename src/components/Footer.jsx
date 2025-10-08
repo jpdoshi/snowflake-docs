@@ -14,7 +14,7 @@ const Footer = () => {
             width={80}
             loading="lazy"
           />
-          <div className="mt-3 space-y-0.5">
+          <div className="mt-3 space-y-1">
             <h2 className="text-2xl font-bold text-[var(--primary)]">
               Snowflake Browser
             </h2>
@@ -35,10 +35,10 @@ const Footer = () => {
           <h3 className="font-medium text-xl text-[var(--primary)]">
             Resources
           </h3>
-          <ul className="mt-3 text-base underline underline-offset-2 space-y-1">
+          <ul className="mt-4 text-base underline underline-offset-2 space-y-2 text-[#a89984]">
             <li>
               <Link href="https://github.com/jpdoshi/snowflake-browser">
-                Explore Repository
+                Github Repo
               </Link>
             </li>
             <li>
@@ -48,7 +48,7 @@ const Footer = () => {
             </li>
             <li>
               <Link href="https://github.com/jpdoshi/snowflake-browser/releases">
-                Check Releases
+                Releases
               </Link>
             </li>
             <li>
@@ -56,12 +56,15 @@ const Footer = () => {
                 Report an Issue
               </Link>
             </li>
+            <li>
+              <Link href="mailto:jpdoshi2811@gmail.com">Contact Me</Link>
+            </li>
           </ul>
         </div>
 
         <div>
           <h3 className="font-medium text-xl text-[var(--primary)]">Legal</h3>
-          <ul className="mt-3 text-base underline underline-offset-2 space-y-1">
+          <ul className="mt-4 text-base underline underline-offset-2 space-y-2 text-[#a89984]">
             <li>
               <Link href="/privacy-policy">Privacy Policy</Link>
             </li>
