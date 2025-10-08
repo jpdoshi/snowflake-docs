@@ -19,7 +19,7 @@ export default function Home() {
           className="text-3xl lg:text-4xl xl:text-5xl leading-snug text-center text-[var(--primary)] font-bold mb-10"
         >
           Snowflake: Minimal, Privacy-focused web browser for{" "}
-          <span className="text-[var(--orange)]">anonymous</span> web browsing.
+          <span className="text-[var(--orange)]">Anonymous</span> web browsing.
         </motion.h1>
         <motion.div
           initial={{ scale: 0.8, opacity: 0.5 }}
@@ -51,7 +51,14 @@ export default function Home() {
           </Link>{" "}
           before installing it.
         </div>
-        <Button>Download Now!</Button>
+        <Button>
+          <Link
+            href="https://github.com/jpdoshi/snowflake-browser/releases"
+            target="_blank"
+          >
+            Download Now!
+          </Link>
+        </Button>
       </section>
 
       {/* Features */}
@@ -185,7 +192,7 @@ export default function Home() {
               Programmer Themes
             </h3>
             <p className="mt-2">
-              Gives out unique look & feel with popular high-contrast programmer
+              Gives out unique look & vibe with popular high-contrast programmer
               themes.
             </p>
           </FeatureCard>
@@ -210,8 +217,7 @@ export default function Home() {
               Anti-Fingerprint
             </h3>
             <p className="mt-2">
-              Resists fingerprinting properties to prevent websites to track
-              users.
+              Resists fingerprinting to prevent websites trying to track users.
             </p>
           </FeatureCard>
           <FeatureCard>
@@ -237,7 +243,7 @@ export default function Home() {
               Anonymous browsing
             </h3>
             <p className="mt-2">
-              Supports proxy and TOR for additional security layer to prevent
+              Supports Proxy and TOR for additional security layer to prevent
               trail.
             </p>
           </FeatureCard>

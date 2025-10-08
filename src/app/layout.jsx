@@ -21,6 +21,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${jetbrainsMono.variable} antialiased px-5`}>
+        <head>
+          <link rel="icon" href="/icon.png" type="image/png" sizes="auto" />
+        </head>
         <Header />
         {children}
         <Link
