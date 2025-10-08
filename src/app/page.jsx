@@ -161,7 +161,7 @@ export default function Home() {
               Telemetry OFF
             </h3>
             <p className="mt-2">
-              Doesn't collect users' data or history. nowhere. not at all.
+              Doesn't collect users' data or history. nowhere. at all.
             </p>
           </FeatureCard>
           <FeatureCard>

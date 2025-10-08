@@ -42,7 +42,7 @@ const AccordionItem = ({ title, content, onClick, expanded = false }) => {
   }, [expanded]);
 
   return (
-    <div className="px-2 py-6 border-b border-stone-700">
+    <div className="px-2 py-6 border-b border-stone-800">
       <div
         onClick={onClick}
         className="font-bold text-xl text-[var(--yellow)] flex gap-4 items-center justify-between cursor-pointer"
