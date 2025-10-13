@@ -24,7 +24,7 @@ export default function Home() {
         <motion.div
           initial={{ scale: 0.8, opacity: 0.5 }}
           animate={{ scale: 1, opacity: 1 }}
-          className="relative w-full mx-auto aspect-video mb-12 rounded-md lg:rounded-lg shadow-xl lg:shadow-2xl shadow-stone-900"
+          className="relative w-full mx-auto aspect-[1.88/1] mb-12 rounded-md lg:rounded-lg shadow-xl lg:shadow-2xl shadow-stone-900"
         >
           <Image
             src="/images/screenshot.png"
