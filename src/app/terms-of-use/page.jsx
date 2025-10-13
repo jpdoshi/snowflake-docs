@@ -1,7 +1,7 @@
 import React from "react";
 
 const TermsOfUse = () => {
-  return <div>TermsOfUse</div>;
+  return <div className="container mx-auto">TermsOfUse</div>;
 };
 
 export default TermsOfUse;

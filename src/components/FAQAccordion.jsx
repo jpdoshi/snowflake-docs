@@ -83,10 +83,9 @@ const AccordionItem = ({ title, content, onClick, expanded = false }) => {
           height: isExpanded ? "auto" : 0,
           opacity: isExpanded ? 1 : 0,
           scaleY: isExpanded ? 1 : 0,
-          marginTop: isExpanded ? 20 : 0,
         }}
         dangerouslySetInnerHTML={{ __html: content }}
-        className="origin-top"
+        className={`origin-top ${isExpanded ? "mt-4" : "mt-0"}`}
       ></motion.div>
     </div>
   );

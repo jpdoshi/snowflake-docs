@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/icon.png" type="image/png" sizes="auto" />
       </head>
-      <body className={`${jetbrainsMono.variable} antialiased px-5`}>
+      <body className={`${jetbrainsMono.variable} antialiased px-4 md:px-5`}>
         <Header />
         {children}
         <Link

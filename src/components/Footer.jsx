@@ -72,7 +72,9 @@ const Footer = () => {
               <Link href="/terms-of-use">Terms of Use</Link>
             </li>
             <li>
-              <Link href="#">MIT License</Link>
+              <Link href="https://github.com/jpdoshi/snowflake-browser/blob/main/LICENSE">
+                MIT License
+              </Link>
             </li>
           </ul>
         </div>
